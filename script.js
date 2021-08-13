@@ -209,7 +209,7 @@ btnSort.addEventListener('click', function (e) {
 //console.log(accounts);
 
 //filter method
-/*const deposits = movements.filter(function (mov, i, arr) {
+const deposits = movements.filter(function (mov, i, arr) {
 	return mov > 0;displayMovements(currentAccount.movements);
 
 		//display summary
@@ -233,7 +233,7 @@ for (const mov of movements) if (mov < 0) withdrawalFor.push(mov);
 console.log(withdrawalFor);
 
 //reduce method
-/*const balance = movements.reduce(function (acc, cur, i, arr) {
+const balance = movements.reduce(function (acc, cur, i, arr) {
 	console.log(`iteration ${i}: ${acc}`);
 	return acc + cur;
 }, 100);
@@ -253,7 +253,7 @@ const max = movements.reduce((acc, mov) => {
 }, movements[0]);
 console.log(max);
 
-/*const euroToUSD = 1.1;
+const euroToUSD = 1.1;
 const dollarDepositUSD = movements
 	.filter(mov => mov > 0)
 	.map((mov, i, arr) => mov * euroToUSD)

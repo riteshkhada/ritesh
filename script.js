@@ -209,7 +209,7 @@ btnSort.addEventListener('click', function (e) {
 //console.log(accounts);
 
 //filter method
-const deposits = movements.filter(function (mov, i, arr) {
+/*const deposits = movements.filter(function (mov, i, arr) {
 	return mov > 0;
 	displayMovements(currentAccount.movements);
 
@@ -340,3 +340,4 @@ console.log(flight);
 console.log(jonas);
 const flightNum = flight;
 const passenger = jonas;
+*/

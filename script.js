@@ -323,17 +323,6 @@ const jonas = {
 	password: 2939495969,
 };
 
-const checkIn = function (flightNum, passenger) {
-	flightNum = 'LH45654';
-	passenger.name = 'mr' + passenger.name;
-
-	if ((passenger.password = 2939495969)) {
-		alert('you are logged in');
-	} else {
-		alert('you are not acessed');
-	}
-};
-
 checkIn(flight, jonas);
 console.log(flight);
 console.log(jonas);

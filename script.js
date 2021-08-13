@@ -210,13 +210,14 @@ btnSort.addEventListener('click', function (e) {
 
 //filter method
 const deposits = movements.filter(function (mov, i, arr) {
-	return mov > 0;displayMovements(currentAccount.movements);
+	return mov > 0;
+	displayMovements(currentAccount.movements);
 
-		//display summary
-		calcDisplayIncome(currentAccount);
+	//display summary
+	calcDisplayIncome(currentAccount);
 
-		//display balance
-		calcDisplayBalance(currentAccount);
+	//display balance
+	calcDisplayBalance(currentAccount);
 });
 console.log(movements);
 console.log(deposits);
@@ -315,7 +316,7 @@ balanceValue.addEventListener('click', function () {
 	);
 	console.log(movementsUI);
 	const movementsUI2 = [...document.querySelectorAll('movements__value')];
-});*/
+});
 
 const flight = 'LH2345';
 const jonas = {
